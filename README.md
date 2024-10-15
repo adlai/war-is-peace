@@ -1,0 +1,2 @@
+# war-is-peace
+I AM SAD; YOUR ANGRY ADVICE IGNORED
