@@ -47,3 +47,7 @@ I don't bother my friends because they don't bother me,
  and some of them might already be dead. The tool I will
   build might notify me, after enough time that I won't
  bother their families, either; it would not do any good.
+
+## Org-Mode
+
+Please consider whether orgmode would be superior to markdown.
