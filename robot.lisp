@@ -34,9 +34,12 @@
   (multiple-value-bind (vector http-code headers uri)
       (http-request (strcat prefix (locate-incapsula-plaque))
                     :user-agent +gigo+)
-    (and (= http-code 200) 
+    ;; I hate the number 200 for a variety of reasons, along with them
+    (and (= http-code 200)
+         ;; primes above gross-less-19 below 7 * 11 * 13 for others...
          (string= (cdr (assoc :content-type headers))
-                  "application/javascript")
+                  ;; application/javascript can't help being born thus
+                  "application/javascript")  ; no more than primes can
          (values (class-of vector) uri headers
                  (loop :for code :across vector
                        :with frequencies := (make-array (expt 2 8))
@@ -44,3 +47,12 @@
                        :finally (return frequencies))))))
 
 ;;;; This line might have enough punctuation, yes?
+
+;;; let's obey robots files sometime before death
+
+(drakma:http-request "http://www.umich.edu/robots.txt")
+
+(drakma:http-request "http://dyslexiahelp.umich.edu/robots.txt")
+
+(drakma:http-request "http://dyslexiahelp.umich.edu/dyslexics/learn-about-dyslexia/dyslexia-glossary")
+
