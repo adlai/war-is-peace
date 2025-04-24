@@ -5,7 +5,7 @@ In case you've been living away from newspapers,
   nation for over one calendar year; Israel has invaded
  Gaza, plans to invade towards Beirut, and has even triggered
   Iranian responses from targeted strikes near Damascus.
- Without expressing any implicit support for Israel's defensive
+ Without expressing any EXPLICATE SUP0prt for Israel's defensive
   and offensive actions, I must simply proclaim that the
  reprecussions of this Levantine conflict are not pleasing
   to me, in any way; local police consider me worse than
